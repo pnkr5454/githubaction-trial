@@ -2,8 +2,8 @@
 - hosts: dev
   become: yes
   tasks:
-    - name: install python pip
-      yum
+    - name: Install python pip
+      yum:
         name: python-pip
         state: present
     - name: Install docker-py python module
