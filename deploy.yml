@@ -26,7 +26,8 @@
         state: started
         published_ports:
           - 0.0.0.0:9090:8080 
-    - name: discard the docker images 
-      command: docker image prune -a -f --filter 'label=app=my-app' 
-      ignore_errors: yes  
+          
+   # - name: discard the docker images 
+    #  command: docker image prune -a -f --filter 'label=app=my-app' 
+     # ignore_errors: yes  
 
