@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-    <title>HTML FlexBox Template - Three fixed columns, right menu</title>
+    <title>Docker Tutorial</title>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="description" content="Use this HTML basic website three fixed column layout template with the main content on the left, the extra stuff at the center, the navigation menu on the right.">
     <meta name="generator" content="HAPedit 3.1">
@@ -84,7 +84,7 @@
         }
 
         div#container {
-            width: 1000px;
+            width: 1040px;
             margin: 0 auto;
         }
 
@@ -105,7 +105,7 @@
 
         div#extra {
             float: left;
-            width: 100px;
+            width: 150px;
             margin-left: -300px;
         }
 
