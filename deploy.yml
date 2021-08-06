@@ -27,6 +27,6 @@
         published_ports:
           - 0.0.0.0:9090:8080 
     - name: discard the docker images 
-      command: docker image prune -a -f --filter "label=app=CICD with ansible" 
+      command: docker image prune -a -f --filter "label=app=app=my-app" 
       ignore_errors: yes  
 
