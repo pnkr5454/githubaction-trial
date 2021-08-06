@@ -119,13 +119,17 @@
 <div id="container">
     <div id="header">
         <h1>Navakoteswara Rao</h1>
+        <ul>
+            <li>Welcome to Docker Tutorial</li>
+        </ul>
         <a href="/download/template/10" target="_blank">download this layout</a>
     </div>
     <div id="wrapper">
         <div id="content">
             <p><strong>1. lets learn monolithic and microservices architecture.</strong></p>
             <h3> Microservices Architecture </h3>
-            <ul><li>Breaking monolith into smaller projects(services).</li>
+            <ul>
+                <li>Breaking monolith into smaller projects(services).</li>
                 <li>Each service should be small enough so that it can be managed by 2 pizza teams.</li>
                 <li>Every service is going to have its own backend.</li>
                 <li>Each service can have its own technology stack</li>
@@ -146,35 +150,22 @@
         </div>
     </div>
     <div id="navigation">
-        <p><strong>2. Navigation Menu</strong></p>
-        <h3>Styling Flex Container</h3>
+        <p><strong>2. Monolithic </strong></p>
+        <h3>Benefits</h3>
         <ul>
-            <li>flex-direction</li>
-            <li>flex-wrap</li>
-            <li>justify-content</li>
-            <li>align-content</li>
-            <li>align-items</li>
-        </ul>
-        <h3>Designing Flex Items </h3>
-        <ul>
-            <li>order</li>
-            <li>align-self</li>
-            <li>flex-grow</li>
-            <li>flex-shrink</li>
-            <li>flex-basis</li>
+            <li>Every Friday we do a release.</li>
         </ul>
     </div>
     <div id="extra">
-        <p><strong>3. Additional Stuff</strong></p>
-        <h3>In this guide you will learn:</h3>
+        <p><strong>3. Microservices</strong></p>
+        <h3>Benefits</h3>
         <ul>
-            <li>How to use CSS Flexbox to build modern layouts</li>
-            <li>How to align items both vertically and horizontally</li>
-            <li>How to order items within container</li>
-            <li>And more</li>
+            <li>Let's say we have 50 services.</li>
+            <li>Every friday we do a release.</li>
+            <li>Every Friday we do 50 releases.</li>
         </ul>
     </div>
-    <div id="footer"><p>Footer</p>
+    <div id="footer"><p>Thank you for attention</p>
     </div>
 </div>
 <script type="text/javascript">AddFillerLink("content", "navigation", "extra")</script>
