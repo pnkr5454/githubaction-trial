@@ -48,8 +48,9 @@ pipeline{
             to: 'pnkr5454@gmail.com'
 		}
         failure{
-          mail body: "Hi Developer, Your ${env.JOB_NAME} Job failed, This is your build URL ${env.BUILD_URL}",
-            subject: "${env.JOB_NAME} - Failed", 
+          mail body: """Hi Developer, Your ${env.JOB_NAME} Job failed, This is your build URL ${env.BUILD_URL}",
+            Regards,
+            DevOps Team"""subject: "${env.JOB_NAME} - Failed", 
             to: 'pnkr5454@gmail.com'
         }
     }
