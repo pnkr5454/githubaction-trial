@@ -37,6 +37,20 @@ pipeline{
             }
         }
     }
+    post {
+        success{
+			mail  body: """Hi Dev Team,
+	        Your ${env.JOB_NAME} Job succeed, This is your build URL ${env.BUILD_URL}",
+            Thanks,
+            DevOps Team""", subject: "${env.JOB_NAME} - Success", 
+            to: 'pnkr5454@gmail.com'
+		}
+        failure {
+          mail body: "Hi Developer, Your ${env.JOB_NAME} Job failed, This is your build URL ${env.BUILD_URL}",
+            subject: "${env.JOB_NAME} - Failed", 
+            to: 'pnkr5454@gmail.com'
+        }
+    }
 }
 def latestcommitID(){
     def commitID = sh returnStdout: true, script: 'git rev-parse --short HEAD'
