@@ -8,11 +8,13 @@ pipeline{
     }
 
     stages{
+        /*
         stage("git checkout"){
             steps{
                 git 'https://github.com/pnkr5454/Docker-CICD-with-ansible'
             }
         }
+        */
         stage("Build by Maven"){
             steps{
                 sh "mvn clean package"
@@ -20,7 +22,7 @@ pipeline{
         }
         stage("build the image using docker"){
             steps{
-                sh "docker build . -t pnkr5454/mycicd:${DOCKER_TAG}"
+                sh "docker build  -t pnkr5454/mycicd:${DOCKER_TAG}"
             }
         }
         stage("push the code to docker hub"){
