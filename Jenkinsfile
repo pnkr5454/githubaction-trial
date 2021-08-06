@@ -27,7 +27,7 @@ pipeline{
             steps{
                 withCredentials([string(credentialsId: 'docker_pswd', variable: 'dockerpassword')]) {
                  sh "docker login -u pnkr5454 -p ${dockerpassword}"
-                 sh "docker push pnkr5454/mycicd:${DOCKER_TAG} "
+                 sh "docker push pnkr5454/mycicd:${DOCKER_TAG} 
                 }
             }
         }
@@ -46,7 +46,7 @@ pipeline{
             to: 'pnkr5454@gmail.com'
 		}
         failure {
-          mail body: "Hi Developer, Your ${env.JOB_NAME} Job failed, This is your build URL ${env.BUILD_URL},
+          mail body: "Hi Developer, Your ${env.JOB_NAME} Job failed, This is your build URL ${env.BUILD_URL}",
             subject: "${env.JOB_NAME} - Failed", 
             to: 'pnkr5454@gmail.com'
         }
