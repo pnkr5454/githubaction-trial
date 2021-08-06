@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2 stype="colour: red">Deployed using Docker CI-CD by ansible</h2>
+<h2 style="color: blue;">Deployed using Docker CI-CD by ansible</h2>
 </body>
 </html>
