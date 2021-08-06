@@ -105,7 +105,7 @@
 
         div#extra {
             float: left;
-            width: 200px;
+            width: 100px;
             margin-left: -300px;
         }
 
