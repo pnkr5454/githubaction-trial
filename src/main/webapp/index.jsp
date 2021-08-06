@@ -99,13 +99,13 @@
 
         div#navigation {
             float: left;
-            width: 250px;
+            width: 150px;
             margin-left: -150px;
         }
 
         div#extra {
             float: left;
-            width: 300px;
+            width: 200px;
             margin-left: -300px;
         }
 
