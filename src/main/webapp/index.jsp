@@ -84,7 +84,7 @@
         }
 
         div#container {
-            width: 950px;
+            width: 1000px;
             margin: 0 auto;
         }
 
@@ -99,13 +99,13 @@
 
         div#navigation {
             float: left;
-            width: 150px;
+            width: 250px;
             margin-left: -150px;
         }
 
         div#extra {
             float: left;
-            width: 150px;
+            width: 300px;
             margin-left: -300px;
         }
 
