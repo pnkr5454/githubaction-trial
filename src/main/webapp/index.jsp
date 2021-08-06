@@ -118,28 +118,31 @@
 <body>
 <div id="container">
     <div id="header">
-        <h1>Header</h1>
+        <h1>Navakoteswara Rao</h1>
         <a href="/download/template/10" target="_blank">download this layout</a>
     </div>
     <div id="wrapper">
         <div id="content">
-            <p><strong>1. Main Content</strong></p>
-            <h3>The Ultimate Guide to Flexbox </h3>
-            <p>The Flex Layout module is new layout module in CSS3 made to improve the items align, directions and order
-                in the container even when they are with dynamic or even unknown size. The prime characteristic of the
-                flex container is the ability to modify the width or height of its children to fill the available space
-                in the best possible way on different screen sizes.
-            </p>
-            <p>Flexbox is relatively new, but it enjoys excellent browser support today (nearly 83% of browsers support
-                Flexbox). Flexbox Layout is used for small application components, whereas CSS Grid Layout Module is
-                aimed to handle the large scale layouts.
-            </p>
-            <h3>The Two axes of Flexbox</h3>
-            <p>When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The
-                main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it.
-                Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from
-                the outset.
-            </p>
+            <p><strong>1. lets learn monolithic and microservices architecture.</strong></p>
+            <h3> Microservices Architecture </h3>
+            <ul><li>Breaking monolith into smaller projects(services).</li>
+                <li>Each service should be small enough so that it can be managed by 2 pizza teams.</li>
+                <li>Every service is going to have its own backend.</li>
+                <li>Each service can have its own technology stack</li>
+                <li>We can scale each service separately.</li>
+                <li>Newly onboarded person does not need much time to understand the system and add value.</li>
+                <li>We should not have cross-db communications, if service-a wants something from service-b, it has to communicate through API.</li>
+            </ul>
+            
+            <h3>Monolithic Architecture.</h3>
+            <ul>
+                <li>Here the whole project is a single big code base.</li>
+                <li>Because of one big code base there are lots of challenges.</li>
+                <li>Making even small changes to the project is tough and time taking. </li>
+                <li>We may have to use different technology stacks to scale the applications and that is not feasible</li>
+                <li>If a system goes down the whole system is down.</li>
+                <li>Scaling a monolith is expensive, if let's say a search engine has performance issues and we can't scale only that.</li>
+            </ul>
         </div>
     </div>
     <div id="navigation">
