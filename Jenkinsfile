@@ -22,7 +22,7 @@ pipeline{
         }
         stage("build the image using docker"){
             steps{
-                sh "docker build  -t pnkr5454/mycicd:${DOCKER_TAG}"
+                sh "docker build . -t pnkr5454/mycicd:${DOCKER_TAG}"
             }
         }
         stage("push the code to docker hub"){
