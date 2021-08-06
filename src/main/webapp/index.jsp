@@ -84,7 +84,7 @@
         }
 
         div#container {
-            width: 700px;
+            width: 950px;
             margin: 0 auto;
         }
 
