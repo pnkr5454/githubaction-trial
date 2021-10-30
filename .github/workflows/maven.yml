@@ -39,11 +39,11 @@ jobs:
           labels: |
             report
             automated pr
-          assignees: peter-evans
-          reviewers: peter-evans
-          team-reviewers: |
-            owners
-            maintainers
+          assignees: pnkr5454
+          reviewers: pnkr5454
+          #team-reviewers: |
+          #  owners
+          #  maintainers
           milestone: 1
           draft: false
 
